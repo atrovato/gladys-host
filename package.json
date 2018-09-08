@@ -1,0 +1,29 @@
+{
+  "name": "gladys-host",
+  "version": "0.0.1",
+  "description": "Host device manager for Gladys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gladys",
+    "host",
+    "wake on lan",
+    "wol",
+    "server"
+  ],
+  "author": "Alexandre Trovato",
+  "license": "CC-BY-NC-SA-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atrovato/gladys-host.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atrovato/gladys-host/issues"
+  },
+  "homepage": "https://github.com/atrovato/gladys-host#readme",
+  "dependencies": {
+    "wake_on_lan": "^1.0.0"
+  }
+}
